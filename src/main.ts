@@ -106,12 +106,13 @@ import {
         canvasCtx.clearRect(0, 0, canvasElement.width, canvasElement.height);
         for (const landmark of result.landmarks) {
           console.log("Landmark");
+          drawChakras(landmark);
           window.landmark = landmark;
           // draw landmarks
-          /*drawingUtils.drawLandmarks(landmark, {
+          drawingUtils.drawLandmarks(landmark, {
             radius: (data) => DrawingUtils.lerp(data.from!.z, -0.15, 0.1, 5, 1)
           });
-          drawingUtils.drawConnectors(landmark, PoseLandmarker.POSE_CONNECTIONS);*/
+          drawingUtils.drawConnectors(landmark, PoseLandmarker.POSE_CONNECTIONS);
         }
         canvasCtx.restore();
       });
@@ -122,107 +123,52 @@ import {
       requestAnimationFrame(predictWebcam);
     }
   }
-  
-  // THREE JS BEGINS HERE
-  
-  // !! Bug i dont think anything is actually running
-  // test the cubes see if it works.. https://codepen.io/accdecer/pen/KKYPByg
-  // the render function clearly is executing each frame but I dont think anything is currently running
-  import * as THREE from "three";
-  
-  
-  let scene = new THREE.Scene();
-  let aspect = 3 / 2;
-  let camera = new THREE.PerspectiveCamera(75, aspect, 0.1, 1000);
-  let renderer = new THREE.WebGLRenderer();
-  renderer.setSize(960, 540);
-  document.body.appendChild(renderer.domElement);
-  
-  camera.position.z = 50;
 
-  camera.position.set(0, 0, 5);
-  camera.lookAt(0, 0, 0);
-  
-  function cameraOufOfRange() {
-      return (camera.position.z >= 100 || camera.position.z <= 50);
-  };
-  /*let's create a cube and give it a material*/
-  
-  let geometry = new THREE.BoxGeometry(30, 30, 30);
-  let material = new THREE.MeshLambertMaterial({
-      color: "#12c712"
-  });
-  
-  let cube = new THREE.Mesh(geometry, material);
-  
-  // wireframe
-  let geo = new THREE.EdgesGeometry( cube.geometry );
-  let mat = new THREE.LineBasicMaterial( { color: 0x074a07, linewidth: 2 } );
-  let wireframe = new THREE.LineSegments( geo, mat );
-  //cube.add( wireframe );
-  
-  //scene.add(cube);
-  
-  function addDot(x, y, z) {
-    const dotGeometry = new THREE.BufferGeometry();
-    dotGeometry.setAttribute('position', new THREE.BufferAttribute(new Float32Array([x,y,z]), 3));
-    const dotMaterial = new THREE.PointsMaterial({ size: 10, color: 0xff0000 });
-    const dot = new THREE.Points(dotGeometry, dotMaterial);
-    scene.add(dot);
-    return dot;
+  function lerp(p1, p2, t) {
+    let p_result = {
+      x: ((p2.x - p1.x) * t) + p1.x,
+      y: ((p2.y - p1.y) * t) + p1.y,
+      z: ((p2.z - p1.z) * t) + p1.z
+    }
+    return p_result;
   }
-  function updateDot(x, y, z, dot) {
-    const dotGeometry = new THREE.BufferGeometry();
-    dotGeometry.setAttribute('position', new THREE.BufferAttribute(new Float32Array([x,y,z]), 3));
-    dot.geometry = dotGeometry;
-  }
-  let dots = []
-  
-  /* to see our cube, we'll need a light source */
-  
-  const color = 0xFFFFFF;
-  const intensity = 1;
-  const light = new THREE.AmbientLight(color, intensity);
-  scene.add(light);
-  
-  let deltaZ = 0.5;
-  
-  /* finally, let's render our scene - read up on requestAnimationFrame()! */
-  
-  let render = function() {
-      requestAnimationFrame(render);
-      //cube.rotation.x += 0.01;
-      //cube.rotation.z += 0.005;
-      //camera.translateZ(deltaZ);
-      camera.position.set(0, 0, -200);
-      camera.lookAt(0, 0, 0);
-  
-      if(cameraOufOfRange()){
-          deltaZ = -deltaZ;
-      }
-      if (window.landmark != null) {
-        console.log("window landmark not null");
-        console.log(window.landmark);
-        for (let i = 0; i < window.landmark.length; i++) {
-          let item = window.landmark[i];
-          // 300 and 200
-          //addDot(item.x * 75.0, item.y * 75, 0);
-          
-          if (dots.length <= i) {
-            let dot = addDot((item.x - 0.5) * 300.0, (item.y - 0.5) * 200.0, 0);
-            dots.push(dot);
-          }
-          else {
-            updateDot((item.x - 0.5) * 300.0, (item.y - 0.5) * -200.0, item.z, dots[i]);
-          }
+  function drawChakras(landmark) {
+    let bottom_spine_pt = lerp(landmark[23], landmark[24], 0.5);
+    let top_spine_pt = lerp(landmark[12], landmark[11], 0.5);
+    let third_eye_chakra_pt = lerp(landmark[1], landmark[4], 0.5);
+    let webcam = document.getElementById("webcam");
+    let chakras : HTMLElement[] = []
+    let chakra_points : any[] = []
+    for (let i = 0; i < 6; i++) {
+      let chakra = document.getElementById("chakra" + String(i));
+      if (chakra != null) chakras.push(chakra);
+    }
+    for (let i = 0; i <= 4; i++) {
+      let p1 = lerp(bottom_spine_pt, top_spine_pt, -0.1);
+      let p2 = lerp(bottom_spine_pt, top_spine_pt, 1.1);
+      let chakra_point = lerp(p1, p2, i / 4.0);
+      chakra_points.push(chakra_point);
+    }
+    chakra_points.push(third_eye_chakra_pt);
 
+    for (let i = 0; i < 6; i++) {
+      if (chakras[i] != null && webcam != null) {
+        chakras[i].style.position = 'absolute';
+        let cam_width = parseInt(webcam.style.width);
+        let cam_height = parseInt(webcam.style.height)
+        let left_pos = ((chakra_points[i].x * cam_width) - 10);
+        let top_pos = ((chakra_points[i].y * cam_height) - 10);
+        if (left_pos > cam_width || left_pos < 0 || top_pos < 0 || top_pos > cam_height) {
+          chakras[i].style.visibility = 'hidden';
+        } else {
+          chakras[i].style.visibility = 'visible';
+          chakras[i].style.left = left_pos + 'px';
+          chakras[i].style.top = top_pos + 'px';
         }
       }
-      renderer.render(scene, camera);
-    
-      
-  };
-  
-  
-  
-  render();
+    }
+
+    // try one and see how it goes!!
+    //let throat_chakra_pt = lerp(bottom_spine_pt, top_spine_pt, 1.1);
+    //let heart_chakra_pt = lerp(bot)
+  }

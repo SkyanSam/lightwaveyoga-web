@@ -1,17 +1,17 @@
-7809
+7815
 129C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Percentage.cjs133543352881587104 0
 88C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\cosmiconfig\dist133543352859797070 1
-74C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist\index.html133609636080958520 0
+74C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist\index.html133626059490962983 0
 80C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\msgpackr133543352881497123 1
 103C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\caniuse-lite\data\regions\AL.js133543352859797070 0
 99C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\core\Raycaster.js133543356493819491 0
 108C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@babel\code-frame\node_modules\chalk133543352857926533 1
 149C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\css-select-adapter.d.ts133543352861087410 0
 78C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\dotenv133543352867232376 1
+85C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist\index.b7a05eb9.js.map133626071777702498 0
 97C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@swc\helpers\esm\index.js133543352867883793 0
 120C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@swc\helpers\src\_object_destructuring_empty.mjs133543352870127197 0
 105C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\lmdb\dependencies\lz4\lib\lz4hc.h133543352870367216 0
-85C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist\index.b7a05eb9.js.map133609636082267251 0
 139C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeEmptyText.js133543352860162183 0
 104C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\packager-js\src\index.js133543352878777440 0
 130C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\renderers\webgl\utils\WebGLConstants.js133543356504345552 0
@@ -27,7 +27,6 @@
 110C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\core\lib\public\Environment.js133543352881797205 0
 140C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\index.d.ts133543352882711836 0
 80C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\css-tree133543352864798788 1
-81C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist\index.b7a05eb9.js133609636082117237 0
 115C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\materials\MeshStandardMaterial.js133543356485563715 0
 121C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@swc\helpers\_\_wrap_async_generator\package.json133543352869506521 0
 122C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\nodes\materialx\lib\mx_noise.js133543356486685862 0
@@ -50,7 +49,7 @@
 97C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\math\Vector4.js133543356502297822 0
 140C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@types\three\examples\jsm\nodes\materials\MeshBasicNodeMaterial.d.ts133543356695071944 0
 89C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@msgpackr-extract133543356696052412 1
-63C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist133609636082287200 1
+63C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist133626071777712501 1
 139C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\index.js133543352860692185 0
 99C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\lightningcss-win32-x64-msvc133543352859226955 1
 79C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\globals133543352863463488 1
@@ -75,7 +74,7 @@
 116C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\meshoptimizer\meshopt_simplifier.module.d.ts133543356687411794 0
 112C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\profiler\lib\SamplingProfiler.js133543352870889165 0
 83C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\ansi-styles133543352857625673 1
-62C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\src133543354708496447 1
+62C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\src133626048150449766 1
 98C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\lightningcss\node\index.js133543352871049157 0
 102C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\utils\lib\index.js.map133543352882351826 0
 113C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@types\three\src\materials\Materials.d.ts133543356689609713 0
@@ -95,7 +94,7 @@
 143C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeEditorsNSData.js133543352860052197 0
 128C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\renderers\shaders\ShaderLib\background.glsl.js133543356471706046 0
 103C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\caniuse-lite\data\regions\PN.js133543352868936518 0
-73C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\src\index.html133609630875846044 0
+73C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\src\index.html133626052891605502 0
 88C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\lights133543356497670410 1
 95C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\htmlnano\docs\README.md133543352869576514 0
 78C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\fflate133543356690525056 1
@@ -113,7 +112,14 @@
 115C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\caniuse-lite\data\features\iframe-srcdoc.js133543352866631137 0
 92C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\resolve-from\license133543352857275664 0
 139C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\renderers\webgl-legacy\nodes\WebGLNodeBuilder.js133543356505010696 0
-70C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\src\main.ts133609635892093365 0
+70C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\src\main.ts133626071777216604 0
+134C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\renderers\common\nodes\NodeUniformBuffer.js133543356487616602 0
+102C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\escape-string-regexp\readme.md133543352857505677 0
+110C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\core\test\fixtures\module-b.js133543352882021840 0
+116C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\utility-types\dist\functional-helpers.js.map133543352865450043 0
+103C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\core\UniformsGroup.js133543356501467824 0
+92C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\htmlnano\LICENSE.txt133543352869957218 0
+76C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\src\third_eye.png133626049157137296 0
 99C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\reporter-tracer\lib133543352876476768 1
 90C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\lmdb\dict\dict.txt133543352870807267 0
 108C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\offscreen\jank.js133543356481059496 0
@@ -378,6 +384,8 @@
 104C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\css-tree\cjs\tokenizer\types.cjs133543352861727480 0
 111C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\geometries\ExtrudeGeometry.js133543356478142582 0
 80C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\error-ex133543352857465680 1
+105C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\textures\CubeTexture.js133543356475073254 0
+109C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\materials\PointsMaterial.js133543356492722888 0
 120C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\packager-wasm\src\wasm-sourcemap.js.flow133543352874005763 0
 93C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\base-x\src\index.d.ts133543352867532349 0
 103C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\caniuse-lite\data\regions\SG.js133543352869856542 0
@@ -387,8 +395,6 @@
 92C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\escape-string-regexp133543352857465680 1
 114C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@types\three\examples\jsm\nodes\Nodes.d.ts133543356692990119 0
 100C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\svgo\plugins\inlineStyles.js133543352860642192 0
-109C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\materials\PointsMaterial.js133543356492722888 0
-105C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\textures\CubeTexture.js133543356475073254 0
 98C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\lightningcss\node\flags.js133543352871039146 0
 130C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\csso\node_modules\css-tree\cjs\lexer\generic-an-plus-b.cjs133543352881097129 0
 97C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\resolve-from\package.json133543352856992564 0
@@ -797,12 +803,6 @@
 112C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\misc\MorphAnimMesh.js133543356485996818 0
 112C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\materials\LineBasicMaterial.js133543356482778001 0
 94C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\color-convert\index.js133543352857575681 0
-134C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\renderers\common\nodes\NodeUniformBuffer.js133543356487616602 0
-102C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\escape-string-regexp\readme.md133543352857505677 0
-110C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\core\test\fixtures\module-b.js133543352882021840 0
-116C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\utility-types\dist\functional-helpers.js.map133543352865450043 0
-103C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\core\UniformsGroup.js133543356501467824 0
-92C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\htmlnano\LICENSE.txt133543352869957218 0
 103C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\source-map-js\lib\base64-vlq.js133543352857325675 0
 101C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\utility-types\dist\index.d.ts133543352865540066 0
 126C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@types\three\src\renderers\webgl\WebGLRenderLists.d.ts133543356694321437 0
@@ -835,6 +835,7 @@
 107C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\utility-types\dist\utility-types.js133543352865430050 0
 103C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\caniuse-lite\data\regions\GY.js133543352866361147 0
 97C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\lights\Light.js133543356481984639 0
+86C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist\third_eye.06e9b9ba.png133626069411856673 0
 115C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\update-browserslist-db\check-npm-version.js133543352859206970 0
 118C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\caniuse-lite\data\features\css-color-adjust.js133543352862668296 0
 109C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\workers\test\cpuCount.test.js133543352868603760 0
@@ -845,7 +846,6 @@
 132C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\nodes\materials\LineDashedNodeMaterial.js133543356482818001 0
 89C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@swc\core\LICENSE133543352863243494 0
 104C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\regenerator-runtime\package.json133543352857575681 0
-125C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\caniuse-lite\data\features\focusin-focusout-events.js133543352865720052 0
 101C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\update-browserslist-db\cli.js133543352859256945 0
 121C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\renderers\common\RenderList.js133543356494535902 0
 97C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@types\three\package.json133543356686931809 0
@@ -1500,9 +1500,6 @@
 121C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@swc\helpers\cjs\_initializer_define_property.cjs133543352866201152 0
 97C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\semver\functions\clean.js133543352865240066 0
 140C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\renderers\shaders\ShaderChunk\batching_pars_vertex.glsl.js133543356471786036 0
-96C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\semver\ranges\outside.js133543352865430050 0
-102C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\csso\lib\replace\Percentage.js133543352866401154 0
-115C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\nodes\core\BypassNode.js133543356472887258 0
 121C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@types\three\src\materials\MeshPhongMaterial.d.ts133543356689704868 0
 135C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\src\renderers\shaders\ShaderChunk\batching_vertex.glsl.js133543356471796031 0
 97C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\lines-and-columns\LICENSE133543352856982571 0
@@ -2612,6 +2609,9 @@
 89C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\svgo\package.json133543352859972188 0
 133C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\nodes\display\ViewportSharedTextureNode.js133543356502432975 0
 97C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\cosmiconfig\dist\types.js133543352858676500 0
+96C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\semver\ranges\outside.js133543352865430050 0
+102C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\csso\lib\replace\Percentage.js133543352866401154 0
+115C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\nodes\core\BypassNode.js133543356472887258 0
 114C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\nodes\core\CacheNode.js133543356472907255 0
 109C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\three\examples\jsm\nodes\core\Node.js133543356486735989 0
 106C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\runtime-service-worker\lib133543352872254526 1
@@ -5571,6 +5571,7 @@
 106C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\caniuse-lite\data\features\flac.js133543352865630053 0
 93C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@lezer\common\LICENSE133543352867692355 0
 113C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\caniuse-lite\data\features\flexbox-gap.js133543352865640052 0
+125C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\caniuse-lite\data\features\focusin-focusout-events.js133543352865720052 0
 123C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\caniuse-lite\data\features\font-family-system-ui.js133543352865720052 0
 114C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\caniuse-lite\data\features\font-feature.js133543352865730098 0
 145C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\prepare\index.js133543352859757064 0
@@ -6247,6 +6248,7 @@
 131C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@types\three\examples\jsm\nodes\materials\NodeMaterial.d.ts133543356695101940 0
 113C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\.bin\node-gyp-build-optional-packages.cmd133543352918882694 0
 137C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@types\three\examples\jsm\nodes\materials\SpriteNodeMaterial.d.ts133543356695111942 0
+85C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist\index.fd81ed95.js.map133626014880164333 0
 127C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@types\three\examples\jsm\nodes\loaders\NodeLoader.d.ts133543356695031968 0
 124C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@types\three\examples\jsm\nodes\lighting\AONode.d.ts133543356694961950 0
 137C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@types\three\examples\jsm\nodes\lighting\HemisphereLightNode.d.ts133543356694981956 0
@@ -7072,6 +7074,7 @@
 124C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\runtime-js\lib\helpers\browser\css-loader.js133543352874835858 0
 127C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\runtime-js\lib\helpers\browser\esm-js-loader.js133543352874941621 0
 129C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\runtime-js\lib\helpers\browser\import-polyfill.js133543352875061053 0
+81C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist\index.ae4b2796.js133609636272617111 0
 123C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\runtime-js\lib\helpers\browser\js-loader.js133543352875081058 0
 125C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\runtime-js\lib\helpers\browser\wasm-loader.js133543352875241024 0
 103C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\@parcel\runtime-browser-hmr\lib133543352874495769 1
@@ -7806,5 +7809,8 @@
 113C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\.bin\node-gyp-build-optional-packages.ps1133543352918892613 0
 83C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\.bin\parcel133543352918892613 0
 99C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\node_modules\.bin\update-browserslist-db133543352918962937 0
+85C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist\index.ae4b2796.js.map133609636272897107 0
+81C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist\index.fd81ed95.js133626014880043027 0
 89C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist\parcelexample.59712999.js133543354149625677 0
 93C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist\parcelexample.59712999.js.map133543354149655233 0
+81C:\Users\samue\OneDrive\Documents\GitHub\lightwaveyoga-web\dist\index.b7a05eb9.js133626071777672495 0
